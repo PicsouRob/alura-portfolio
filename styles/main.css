@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #F5F5F5;
+    font-weight: 400;
+}
+
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+}
+
+p {
+    font-size: 15px;
+}
+
+p, span {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.header-link {
+    display: none;
+}
+
+.link-title:hover, .social-content-text:hover {
+    color: #2A7AE4;
+    transition: all .6 ease-in;
+}
+
+.home {
+    padding: 0px 20px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px 0;
+    
+}
+
+.home-left {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 15px;
+}
+
+.profil-photo {
+    height: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.social-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-content {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.about {
+    padding: 20px;
+}
+
+.about-box {
+    background: #EAF2FD;
+}
+
+.social-content-text {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        font-size: 18px;
+    }
+    
+    span {
+        font-size: 22px;  
+    }
+    
+    h1 {
+        font-size: 27px;    
+    }
+    
+    .home {
+        padding: 0px 40px;
+    }
+    
+    .home-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 0;
+        gap: 15px;
+        
+    }
+    
+    .social-content-text {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .profil-photo {
+        height: 250px;
+    }
+    
+    .about {
+        padding: 40px;
+    }
+    
+    .link-email {
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 35px;  
+        font-weight: 900;  
+    }
+    
+    .home {
+        max-width: 80rem;
+        margin: 0 auto;
+    }
+    
+    .header {
+        padding: 40px 0px;
+    }
+    
+    .home-content {
+        padding: 70px 0px;
+    }
+    
+    .home-left {
+        padding-right: 70px;
+    }
+    
+    .link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    
+    .header-link {
+        display: flex;
+    }
+    
+    .about {
+        max-width: 80rem;
+        margin: 0 auto;
+    }
+    
+    .about p {
+        padding-right: 290px;
+    }
+    
+    .profil-photo {
+        width: 300px;
+        height: 300px;
+    }
+}

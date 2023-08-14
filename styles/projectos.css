@@ -1,0 +1,78 @@
+.proyectos {
+    padding: 20px;
+}
+
+.proyectos-content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.proyectos-items {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.proyectos-image {
+    
+}
+
+.proyectos-description {
+    
+}
+
+.button-section {
+    display: flex;
+    gap: 20px;
+}
+
+.repositorio {
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+}
+
+.repositorio:hover {
+    background: #2A7AE4;
+    color: white;
+}
+
+.repositorio, .demo {
+    text-align: center;
+    padding: 10px 18px;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.demo {
+    background: #2A7AE4;
+    color: white;
+    border: none;
+}
+
+.demo:hover {
+    opacity: 0.9;
+}
+
+@media screen and (min-width: 768px) {
+   .proyectos {
+        padding: 40px;
+   }
+}
+
+@media screen and (min-width: 992px) {
+    .proyectos-box {
+        max-width: 80rem;
+        margin: 0 auto;
+    }
+    
+    .proyectos-items {
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+    }
+    
+    .reverse {
+        flex-direction: row-reverse;
+    }
+}
